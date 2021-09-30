@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	
+	<!-- Own CSS -->
+	<link rel="stylesheet" href="css/styling.css">
+	
+	<link href="css/lightbox.css" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	
+	<script src="https://kit.fontawesome.com/476d84904d.js" crossorigin="anonymous"></script>
+	
+	<link rel="FaviconIcon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Place order</title>
+  </head>
+  <body>
+    <header>
+		<h1>Kay Florals</h1>
+		<nav>
+			<a href="homepage.html">Home</a>
+			<a href="order.html" class = "active">Place Your Order</a>
+			<a href="visit.html">Visit Us</a>
+		</nav>
+	</header>
+	<main>
+		<aside class = "left">
+		<h6>click on an image to open it</h6>
+			<a href="images/order/order1.jpg" data-alt="beautiful flower" data-lightbox="order1"><img src="images/order/order1.jpg" alt="beautiful flower"/></a>
+			<a href="images/order/order2.jfif" data-alt="beautiful flower" data-lightbox="order2"><img src="images/order/order2.jfif" alt="beautiful flower"/></a>
+			<a href="images/order/order3.jpg" data-alt="beautiful flower" data-lightbox="order3"><img src="images/order/order3.jpg" alt="beautiful flower"></a>
+		</aside>
+		<section class = "center">
+			<div class="main-block">
+			<h2>Order Form</h2>
+			<form action="order.html">
+			<div class="info">
+			<input class="fname" type="text" name="name" placeholder="Full name">
+			<input type="text" name="name" placeholder="Email">
+			<input type="text" name="name" placeholder="Phone number">
+			<input type="text" name="name" placeholder="Today's date">
+			<input type="text" name="name" placeholder="Order due date">
+			<input type="text" name="name" placeholder="Date of event">
+			<input type="text" name="name" placeholder="Time of event">
+			<input type="text" name="name" placeholder="Event location">
+			<input type="text" name="name" placeholder="Type of event">
+			<select>
+            <option value="number" disabled selected>Number of guests</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+			</select>
+			<select>
+            <option value="time" disabled selected>Pick up time</option>
+            <option value="8">8:00am</option>
+            <option value="9">9:00am</option>
+            <option value="10">10:00am</option>
+            <option value="12">12:00pm</option>
+            <option value="1">1:00pm</option>
+            <option value="3">3:00pm</option>
+            <option value="6">6:00pm</option>
+            <option value="7">7:00pm</option>
+			</select>
+			</div>
+        <h3>Delivery Method</h3>
+        <div class="method">
+          <div> 
+            <input type="radio" value="none" id="radioOne" name="method" checked/>
+            <label for="radioOne" class="radio">For pick up</label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radioTwo" name="method" />
+            <label for="radioTwo" class="radio">For delivery</label>
+          </div>
+        </div>
+        <button class="button">Submit</button>
+      </form>
+	  </div>
+		</section>
+		<section class = "right">
+		<h6>click on an image to open it</h6>
+			<a href="images/order/order4.jfif" data-alt="beautiful flower" data-lightbox="order4"><img src="images/order/order4.jfif" alt="beautiful flower"/></a>
+			<a href="images/order/order5.jpg" data-alt="beautiful flower" data-lightbox="order5"><img src="images/order/order5.jpg" alt="beautiful flower"/></a>
+			<a href="images/order/order6.jpeg" data-alt="beautiful flower" data-lightbox="order6"><img src="images/order/order6.jpeg" alt="beautiful flower"></a>
+		</section>
+	</main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  <footer>
+  <hr>
+  <code>Copyright (c) 2021 Kay Florals Ltd </code>
+  </footer>
+  <script src="js/lightbox.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
